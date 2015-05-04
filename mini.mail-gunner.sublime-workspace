@@ -1,0 +1,1053 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"post",
+				"posts"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"fil",
+				"file_content"
+			],
+			[
+				"pho",
+				"phone"
+			],
+			[
+				"pla",
+				"player"
+			],
+			[
+				"pl",
+				"player"
+			],
+			[
+				"play",
+				"players"
+			],
+			[
+				"st",
+				"start"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"ea",
+				"eawi	each_with_index { |e, i| .. }"
+			],
+			[
+				"day",
+				"day_to_buy"
+			],
+			[
+				"value",
+				"value_to_buy_for"
+			],
+			[
+				"la",
+				"largest_profit"
+			],
+			[
+				"al",
+				"alphabet"
+			],
+			[
+				"cae",
+				"caeser_cipher"
+			],
+			[
+				"e",
+				"ea	each { |e| .. }"
+			],
+			[
+				"ta",
+				"tags"
+			],
+			[
+				"Ar",
+				"Article"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"pa",
+				"padded"
+			],
+			[
+				"ti",
+				"time_string"
+			],
+			[
+				"mi",
+				"minutes"
+			],
+			[
+				"ini",
+				"initial_time"
+			],
+			[
+				"tr",
+				"translate"
+			],
+			[
+				"mul",
+				"multiply"
+			],
+			[
+				"tem",
+				"temperature"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"rep",
+				"repetitions"
+			],
+			[
+				"pi",
+				"pickAnOrange"
+			],
+			[
+				"oran",
+				"orange_tree"
+			],
+			[
+				"or",
+				"orangeCount"
+			],
+			[
+				"o",
+				"orangeCount"
+			],
+			[
+				"li",
+				"list_to_sort"
+			],
+			[
+				"en",
+				"ending_year"
+			],
+			[
+				"star",
+				"starting_year"
+			],
+			[
+				"sta",
+				"starting_year"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"p",
+				"padding-right"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"num",
+				"numberOfRows"
+			],
+			[
+				"sq",
+				"square"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"prime",
+				"primes"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"Messa",
+				"messages"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"bl",
+				"bl_list"
+			],
+			[
+				"u",
+				"url_list"
+			],
+			[
+				"list",
+				"listLen"
+			],
+			[
+				"id",
+				"idName"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"n",
+				"nextIndex"
+			],
+			[
+				"new",
+				"newDiv"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"per",
+				"pedro-circle"
+			],
+			[
+				"le",
+				"padding-left"
+			],
+			[
+				"left",
+				"leftToRight"
+			],
+			[
+				"pedro",
+				"pedro-circle"
+			],
+			[
+				"x",
+				"xPosition"
+			],
+			[
+				"y",
+				"yPosition"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/narc/Dev/may_projects/mini-mail-gunner/index.html",
+			"settings":
+			{
+				"buffer_size": 302,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 127,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 27.0,
+		"selected_items":
+		[
+			[
+				"form",
+				"Snippet: bs3-form"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"sni html",
+				"Snippet: html"
+			],
+			[
+				"",
+				"BeautifyRuby"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set syn ru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"bs3-",
+				"Snippet: bs3-container"
+			],
+			[
+				"snip form",
+				"Snippet: bs3-form"
+			],
+			[
+				"sni for",
+				"Snippet: bs3-form-horizontal"
+			],
+			[
+				"snippet:",
+				"Snippet: html"
+			],
+			[
+				"sni",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 500.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/narc/dev/april_projects/angular-rails/app/views/layouts/index.html",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/home/mainCtrl.js",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/posts/_posts.html",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/app.js",
+		"/Users/narc/Dev/april_projects/angular-rails/app/views/layouts/application.html.erb",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/auth/_register.html",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/auth/_login.html",
+		"/Users/narc/dev/april_projects/angular-rails/app/helpers/devise_helper.rb",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/nav/navCtrl.js",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/auth/authCtrl.js",
+		"/Users/narc/Dev/april_projects/angular-rails/app/models/comment.rb",
+		"/Users/narc/Dev/april_projects/angular-rails/app/models/post.rb",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/home/_home.html",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/posts/postsCtrl.js",
+		"/Users/narc/Dev/april_projects/angular-rails/app/controllers/application_controller.rb",
+		"/Users/narc/Dev/april_projects/angular-rails/app/controllers/comments_controller.rb",
+		"/Users/narc/Dev/april_projects/angular-rails/app/controllers/posts_controller.rb",
+		"/Users/narc/Dev/april_projects/angular-rails/app/helpers/comments_helper.rb",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/stylesheets/application.css",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/application.js",
+		"/Users/narc/Dev/april_projects/angular-rails/Gemfile",
+		"/Users/narc/Dev/april_projects/angular-rails/config/routes.rb",
+		"/Users/narc/Dev/april_projects/angular-rails/config/environments/development.rb",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/nav/_nav.html",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/posts/posts.js",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/auth/_login.js",
+		"/Users/narc/Dev/april_projects/angular-rails/.gitignore",
+		"/Users/narc/Dev/april_projects/angular-rails/flapper-news/.gitignore",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/_home.html",
+		"/Users/narc/Dev/april_projects/angular-rails/app/assets/javascripts/_posts.html",
+		"/Users/narc/Dev/april_projects/angular-rails/vendor/assets/bower_components/.bowerrc",
+		"/Users/narc/Dev/april_projects/angular-rails/index.html",
+		"/Users/narc/Dev/april_projects/angular-rails/app.js",
+		"/Users/narc/dev/april_projects/angular-rails/angular-rails.sublime-project",
+		"/Users/narc/Dev/april_projects/angular-rails/tmp.html",
+		"/Users/narc/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/narc/Dev/april_projects/angular-rails/README.md",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/views/articles/_form.html.erb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/models/tag.rb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/helpers/articles_helper.rb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/views/articles/show.html.erb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/models/article.rb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/controllers/articles_controller.rb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/controllers/application_controller.rb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/config/routes.rb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/views/comments/_form.html.erb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/views/articles/_comment.html.erb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/helpers/comments_helper.rb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/controllers/comments_controller.rb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/models/comment.rb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/db/migrate/20150429175753_create_comments.rb",
+		"/Users/narc/dev/april_projects/blogger2-jumpstartlab/app/views/articles/_comment.html.erb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/public/robots.txt",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/views/layouts/application.html.erb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/views/articles/new.html.erb",
+		"/Users/narc/dev/april_projects/blogger2-jumpstartlab/app/views/articles/edit.html.erb",
+		"/Users/narc/dev/april_projects/blogger2-jumpstartlab/app/views/articles/_form.html.erb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/views/articles/index.html.erb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/app/views/articles/new.articles.html.erb",
+		"/Users/narc/dev/april_projects/blogger2-jumpstartlab/app/views/articles/index.html.erb",
+		"/Users/narc/dev/april_projects/blogger2-jumpstartlab/app/views/articles/show.html.erb",
+		"/Users/narc/Dev/april_projects/blogger2-jumpstartlab/db/migrate/20150429150132_create_articles.rb",
+		"/Users/narc/Dev/april_projects/rails-tutorial/sample_app/Guardfile",
+		"/Users/narc/Dev/april_projects/rails-tutorial/sample_app/app/views/static_pages/home.html.erb",
+		"/Users/narc/Dev/april_projects/rails-tutorial/sample_app/.gitignore",
+		"/Users/narc/dev/april_projects/rails-tutorial/sample_app/app/views/static_pages/home.html.erb",
+		"/Users/narc/dev/april_projects/rails-tutorial/sample_app/app/views/static_pages/help.html.erb",
+		"/Users/narc/dev/april_projects/rails-tutorial/sample_app/app/views/static_pages/about.html.erb",
+		"/Users/narc/dev/april_projects/rails-tutorial/sample_app/app/views/layouts/application.html.erb",
+		"/Users/narc/dev/april_projects/rails-tutorial/sample_app/config/routes.rb",
+		"/Users/narc/dev/april_projects/rails-tutorial/sample_app/test/test_helper.rb",
+		"/Users/narc/dev/april_projects/rails-tutorial/sample_app/config/initializers/backtrace_silencers.rb",
+		"/Users/narc/dev/april_projects/rails-tutorial/sample_app/test/controllers/static_pages_controller_test.rb",
+		"/Users/narc/dev/april_projects/rails-tutorial/sample_app/app/controllers/static_pages_controller.rb",
+		"/Users/narc/dev/april_projects/rails-tutorial/sample_app/Gemfile",
+		"/Users/narc/dev/april_projects/rails-tutorial/sample_app/app/controllers/application_controller.rb",
+		"/Users/narc/dev/april_projects/rails-tutorial/sample_app/README.rdoc",
+		"/Users/narc/dev/april_projects/rails-tutorial/sample_app/config/application.rb",
+		"/Users/narc/dev/april_projects/rails-tutorial/hello_app/app/controllers/application_controller.rb",
+		"/Users/narc/dev/april_projects/rails-tutorial/toy/config/routes.rb",
+		"/Users/narc/dev/april_projects/rails-tutorial/toy/Gemfile",
+		"/Users/narc/dev/april_projects/rails-tutorial/hello_app/README.md",
+		"/Users/narc/dev/april_projects/rails-tutorial/hello_app/config/routes.rb",
+		"/Users/narc/dev/april_projects/rails-tutorial/hello_app/config/application.rb",
+		"/Users/narc/dev/april_projects/event_manager/event_attendees.csv",
+		"/Users/narc/dev/april_projects/event_manager/form_letter.erb",
+		"/Users/narc/dev/april_projects/event_manager/output/thanks_1.html",
+		"/Users/narc/dev/april_projects/event_manager/README.md",
+		"/Users/narc/dev/april_projects/TicTacToe/README.md",
+		"/Users/narc/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/narc/dev/april_projects/bubblesort/README.md",
+		"/Users/narc/dev/april_projects/bubblesort/bubble_sort_by.rb",
+		"/Users/narc/dev/april_projects/bubblesort/bubblesort.rb",
+		"/Users/narc/dev/april_projects/bootstrap mooc/lab2/SubmitAlbum.html",
+		"/Users/narc/dev/april_projects/bootstrap mooc/2/test.html",
+		"/Users/narc/dev/april_projects/the_odin_project/README.md",
+		"/Users/narc/dev/april_projects/bootstrap mooc/1/bower.json",
+		"/Users/narc/dev/april_projects/bootstrap mooc/1/index.html",
+		"/Users/narc/dev/april_projects/bootstrap mooc/1/bower_components/jquery/dist/jquery.js",
+		"/Users/narc/Library/Application Support/Sublime Text 2/Packages/Better Completion/sbc-setting.sublime-settings",
+		"/Users/narc/Dev/Sync/the_odin_project/backbonejs/index.html",
+		"/Users/narc/Library/Application Support/Sublime Text 2/Packages/User/sbc-setting.sublime-settings",
+		"/Users/narc/dev/Sync/the_odin_project/etch-a-sketch/README.md",
+		"/Users/narc/dev/curriculum/web_development_101/project_ruby.md",
+		"/Users/narc/Dev/april_projects/beer bottle/index.html",
+		"/Users/narc/Dev/april_projects/pedro_amaral_reveal.js3.js/README.md",
+		"/Users/narc/Dev/Sync/the_odin_project/backbonejs/bower.json",
+		"/Users/narc/Dev/Sync/the_odin_project/backbonejs/example_bower.json",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/Gemfile",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/config/application.rb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/views/authors/_form.html.erb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/config/routes.rb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/views/authors/show.html.erb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/views/authors/index.html.erb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/views/layouts/application.html.erb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/controllers/author_sessions_controller.rb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/views/author_sessions/new.html.erb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/controllers/authors_controller.rb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/controllers/tags_controller.rb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/controllers/comments_controller.rb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/controllers/articles_controller.rb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/models/author.rb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/db/migrate/20150325234449_sorcery_core.rb",
+		"/Users/narc/Desktop/olá Pedro! O da Madeira.",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/views/articles/_form.html.erb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/assets/stylesheets/styles.css.scss",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/models/article.rb",
+		"/Users/narc/Dev/Sync/the_odin_project/rails/blogger/app/views/articles/show.html.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"strong",
+			"bez",
+			"space",
+			"log",
+			"	",
+			"socket",
+			"on",
+			"circleradius",
+			"newparticle",
+			"xv",
+			"newFireball",
+			"comment",
+			"tiago-dummy"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/narc/Dev/may_projects/mini-mail-gunner/index.html",
+					"settings":
+					{
+						"buffer_size": 302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 113.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"_p",
+				"app/assets/javascripts/posts/_posts.html"
+			],
+			[
+				"_home",
+				"app/assets/javascripts/home/_home.html"
+			],
+			[
+				"comment",
+				"app/controllers/comments_controller.rb"
+			],
+			[
+				"post_c",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"commen",
+				"app/models/comment.rb"
+			],
+			[
+				"post",
+				"app/models/post.rb"
+			],
+			[
+				"appl",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"auth",
+				"app/assets/javascripts/auth/authCtrl.js"
+			],
+			[
+				"app.js",
+				"app/assets/javascripts/app.js"
+			],
+			[
+				"nav",
+				"app/assets/javascripts/nav/navCtrl.js"
+			],
+			[
+				"_nav",
+				"app/assets/javascripts/nav/_nav.html"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"main",
+				"app/assets/javascripts/home/mainCtrl.js"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				".git",
+				"flapper-news/.gitignore"
+			],
+			[
+				"ap",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"postsc",
+				"app/assets/javascripts/posts/postsCtrl.js"
+			],
+			[
+				"mainc",
+				"app/assets/javascripts/home/mainCtrl.js"
+			],
+			[
+				"application.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"bower",
+				"vendor/assets/bower_components/.bowerrc"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"applica",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"index",
+				"app/views/articles/index.html.erb"
+			],
+			[
+				"art",
+				"app/controllers/articles_controller.rb"
+			],
+			[
+				"tags",
+				"app/controllers/tags_controller.rb"
+			],
+			[
+				"show",
+				"app/views/articles/show.html.erb"
+			],
+			[
+				"arti",
+				"app/helpers/articles_helper.rb"
+			],
+			[
+				"_form",
+				"app/views/articles/_form.html.erb"
+			],
+			[
+				"tag",
+				"app/models/tag.rb"
+			],
+			[
+				"article",
+				"app/models/article.rb"
+			],
+			[
+				"_co",
+				"app/views/articles/_comment.html.erb"
+			],
+			[
+				"_",
+				"app/views/articles/_form.html.erb"
+			],
+			[
+				"",
+				"app/views/articles/show.html.erb"
+			],
+			[
+				"com",
+				"app/controllers/comments_controller.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"root",
+				"public/robots.txt"
+			],
+			[
+				"articlescon",
+				"app/controllers/articles_controller.rb"
+			],
+			[
+				"sho",
+				"app/views/articles/show.html.erb"
+			],
+			[
+				"articles",
+				"app/helpers/articles_helper.rb"
+			],
+			[
+				"controller",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"articl",
+				"app/controllers/articles_controller.rb"
+			],
+			[
+				"in",
+				"app/views/articles/index.html.erb"
+			],
+			[
+				"new",
+				"app/views/articles/new.articles.html.erb"
+			],
+			[
+				"ar",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"create",
+				"db/migrate/20150429150132_create_articles.rb"
+			],
+			[
+				"test",
+				"test/controllers/static_pages_controller_test.rb"
+			],
+			[
+				"home",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"hom",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				".",
+				".gitignore"
+			],
+			[
+				"back",
+				"config/initializers/backtrace_silencers.rb"
+			],
+			[
+				"test_hel",
+				"test/test_helper.rb"
+			],
+			[
+				"about",
+				"app/views/static_pages/about.html.erb"
+			],
+			[
+				"help",
+				"app/views/static_pages/help.html.erb"
+			],
+			[
+				"stati",
+				"test/controllers/static_pages_controller_test.rb"
+			],
+			[
+				"read",
+				"README.rdoc"
+			],
+			[
+				"abot",
+				"app/views/static_pages/about.html.erb"
+			],
+			[
+				"static_pa",
+				"test/controllers/static_pages_controller_test.rb"
+			],
+			[
+				"a",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"micro",
+				"app/models/micropost.rb"
+			],
+			[
+				"application",
+				"config/application.rb"
+			],
+			[
+				"author",
+				"app/controllers/authors_controller.rb"
+			],
+			[
+				"author_se",
+				"app/controllers/author_sessions_controller.rb"
+			],
+			[
+				"authr",
+				"app/models/author.rb"
+			],
+			[
+				"res",
+				"config/routes.rb"
+			],
+			[
+				"artic",
+				"app/controllers/articles_controller.rb"
+			],
+			[
+				"_form.ht",
+				"app/views/articles/_form.html.erb"
+			],
+			[
+				"ta",
+				"app/models/tagging.rb"
+			],
+			[
+				"tag.",
+				"app/models/tag.rb"
+			],
+			[
+				"article.r",
+				"app/models/article.rb"
+			],
+			[
+				"inde",
+				"app/views/articles/index.html.erb"
+			],
+			[
+				"html.erb",
+				"app/views/articles/show.html.erb"
+			],
+			[
+				"control",
+				"app/controllers/articles_controller.rb"
+			],
+			[
+				"coment",
+				"app/controllers/comments_controller.rb"
+			],
+			[
+				"_coment",
+				"app/views/comments/_comment.html.erb"
+			],
+			[
+				"comments",
+				"app/controllers/comments_controller.rb"
+			],
+			[
+				"edit",
+				"app/views/articles/edit.html.erb"
+			],
+			[
+				"_fo",
+				"app/views/articles/_form.html.erb"
+			],
+			[
+				"edi",
+				"app/views/articles/edit.html.erb"
+			],
+			[
+				"orange",
+				"ruby/pine_exercices/orange.rb"
+			],
+			[
+				"mak",
+				"makeItModular/makeItModular.js"
+			],
+			[
+				"progr",
+				"firstAsyncIO/program.js"
+			],
+			[
+				"program.js",
+				"makeItModular/program.js"
+			],
+			[
+				"pro",
+				"program.js"
+			],
+			[
+				"css",
+				"style.css"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"pedro",
+				"public/stylesheets/pedro.css"
+			],
+			[
+				"ped",
+				"views/includes/pedro.jade"
+			],
+			[
+				"lay",
+				"views/layout.jade"
+			],
+			[
+				"la",
+				"views/layout.jade"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 345.0,
+	"status_bar_visible": true
+}
