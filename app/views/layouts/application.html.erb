@@ -13,54 +13,5 @@
  
   <ui-view></ui-view>
 
-
-  <script type="text/ng-template" id="/home.html">
-      <div class="col-md-2"></div>
-      <div class="col-md-8">
-
-      <div class="jumbotron">
-        <h1>Mini Mail Gunner</h1>
-        <p>your simple mailing list application</p>
-      </div>
-      <div class="row">
-      <div class="col-md-2"></div>
-      <div class="col-md-8">
-        <div ng-repeat="mlist in mlists">
-          <span class="glyphicon glyphicon glyphicon-edit"
-              ng-click="deleteML(mlist)"></span>
-          <span class="glyphicon glyphicon glyphicon-remove"
-              ng-click="deleteML(mlist)"></span>
-          <span style="font-size:20px; margin-left:10px;">
-            {{mlist.title}} - mails: {{mlist.mails}}
-          </span>
-        </div>
-      </div>
-      </div>
-      
-      <div class="row">
-      <div class="col-md-2"></div>
-      <div class="col-md-8">
-      <form ng-submit="addML()"
-        style="margin-top:30px;">
-        <h3>Create a new mailing list</h3>
-
-        <div class="form-group">
-          <input type="text"
-            class="form-control"
-            placeholder="Title"
-            ng-model="title"></input>
-        </div>
-        <div class="form-group">
-          <input type="text"
-          class="form-control"
-          placeholder="List of e-mails (comma separated)"
-          ng-model="mails"></input>
-        </div>
-        <button type="submit" class="btn btn-primary">Create</button>
-      </form>
-      </div>
-    </div>
-    </div>
-  </script>
   </body>
 </html>
