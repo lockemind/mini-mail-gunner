@@ -1,4 +1,18 @@
-angular.module('miniMailGunner', [])
+angular.module('miniMailGunner', ['ui.router'])
+.config([
+'$stateProvider',
+'$urlRouterProvider',
+function($stateProvider, $urlRouterProvider) {
+
+  $stateProvider
+    .state('home', {
+      url: '/home',
+      templateUrl: '/home.html',
+      controller: 'MainCtrl'
+    });
+
+  $urlRouterProvider.otherwise('home');
+}])
 .factory('mlists', [function(){
   var o = {
     mlists: [
