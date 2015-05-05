@@ -1,6 +1,6 @@
 class MlistsController < ApplicationController
 
-	before_filter :authenticate_user!, only: [:create, :upvote]
+	before_filter :authenticate_user!, only: [:create]
 
 	def index
 		puts 'MlistsController.index'

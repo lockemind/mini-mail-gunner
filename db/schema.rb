@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150505101458) do
+ActiveRecord::Schema.define(version: 20150505105438) do
 
   create_table "mlists", force: :cascade do |t|
     t.string   "title"
@@ -22,6 +22,16 @@ ActiveRecord::Schema.define(version: 20150505101458) do
   end
 
   add_index "mlists", ["user_id"], name: "index_mlists_on_user_id"
+
+  create_table "templates", force: :cascade do |t|
+    t.string   "title"
+    t.string   "content"
+    t.integer  "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "templates", ["user_id"], name: "index_templates_on_user_id"
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false

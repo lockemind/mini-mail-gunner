@@ -7,19 +7,14 @@ function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('template', {
       url: '/template',
-      templateUrl: '_template.html',
+      templateUrl: 'template/_template.html',
       controller: 'TemplateCtrl',
       resolve: {
-        postPromise: ['template', function(template){
-          return template.getAll();
+        postPromise: ['templates', function(templates){
+          return templates.getAll();
         }]
-      },
-      onEnter: ['$state', 'Auth', function($state, Auth) {
-        Auth.currentUser().then(function (){
-        }, function (){ $state.go('login');
-        } )
-      }]
-    }),
+      }
+    })
     .state('login', {
       url: '/login',
       templateUrl: 'auth/_login.html',
@@ -54,7 +49,23 @@ function($stateProvider, $urlRouterProvider) {
         }, function (){ $state.go('login');
         } )
       }]
-    });
+    })
+    // .state('template', {
+    //   url: '/template',
+    //   templateUrl: '/template/_template.html',
+    //   controller: 'TemplateCtrl',
+    //   resolve: {
+    //     postPromise: ['template', function(template){
+    //       return templates.getAll();
+    //     }]
+    //   },
+    //   onEnter: ['$state', 'Auth', function($state, Auth) {
+    //     Auth.currentUser().then(function (){
+    //     }, function (){ $state.go('login');
+    //     } )
+    //   }]
+    // })
+    ;
 
   $urlRouterProvider.otherwise('home');
 }]);
