@@ -38,6 +38,7 @@ gem 'responders', '~> 2.0'
 # header when Angular is submitting data, that way all we need to do is 
 # 	drop in the gem and everything should just work
 gem 'angular_rails_csrf'
+gem 'angular-ui-bootstrap-rails'
 
 gem 'devise', '~> 3.4.0'
 
