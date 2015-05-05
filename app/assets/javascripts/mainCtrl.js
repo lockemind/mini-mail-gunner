@@ -9,10 +9,11 @@ function($scope, mlists){
     if(!$scope.title || $scope.title === '' ||
     	 !$scope.mails || $scope.mails === '') { return; }
     
-      $scope.mlists.push({
+      mlists.create({
         title: $scope.title,
         mails: $scope.mails,
       });
+
       $scope.title = '';
       $scope.mails = '';
   }

@@ -5,13 +5,13 @@
       </div>
       <div class="row">
       
-        <div ng-repeat="mlist in mlists">
+        <div ng-repeat="template in templates">
           <span class="glyphicon glyphicon glyphicon-edit"
               ng-click="deleteML(mlist)"></span>
           <span class="glyphicon glyphicon glyphicon-remove"
               ng-click="deleteML(mlist)"></span>
           <span style="font-size:20px; margin-left:10px;">
-            {{mlist.title}} - mails: {{mlist.mails}}
+            {{template.title}}
           </span>
         </div>
       
@@ -19,9 +19,9 @@
       <div class="row">
       <div class="col-md-2"></div>
       <div class="col-md-8">
-      <form ng-submit="addML()"
+      <form ng-submit="addTemplate()"
         style="margin-top:30px;">
-        <h3>Create a new mailing list</h3>
+        <h3>Create a mail template</h3>
 
         <div class="form-group">
           <input type="text"
@@ -32,8 +32,8 @@
         <div class="form-group">
           <input type="text"
           class="form-control"
-          placeholder="List of e-mails (comma separated)"
-          ng-model="mails"></input>
+          placeholder="Template"
+          ng-model="content"></input>
         </div>
         <button type="submit" class="btn btn-primary">Create</button>
       </form>
