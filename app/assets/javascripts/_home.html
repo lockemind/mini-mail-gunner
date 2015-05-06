@@ -3,6 +3,7 @@
   <p>your simple mailing list application</p>
 </div>
 
+<div ng-show="mpreview">
 To be sent to:<br/>
 {{mpreview.mails}} 
 <br/>
@@ -10,9 +11,11 @@ Subject:<br/>
  {{tpreview.title}} <br/>
 Body:<br/>
 {{tpreview.content}}<br/>
+</div>
 
 <hr/>
 <div class="alert alert-success" role="alert" ng-show="message_sent">{{message_sent}}</div>
+<div class="alert alert-danger" role="alert" ng-show="error_message">{{error_message}}</div>
 <div class="row">
   <form ng-submit="sendMails()"
     style="margin-top:30px;">
