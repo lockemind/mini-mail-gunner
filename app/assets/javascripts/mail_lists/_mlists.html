@@ -5,19 +5,32 @@
       </div>
       <div class="row">
       
-        <div ng-repeat="ml in mlists">
-          <!-- <span class="glyphicon glyphicon glyphicon-edit" ng-click="editML(ml.id)"></span>
-          <span class="glyphicon glyphicon glyphicon-remove" ng-click="deleteML(ml.id)"></span>
- -->
+      <button ng-click="toggleCreate()">Create Mailing List</button>
+      
+      <table st-table="rowCollection" class="table table-striped" >
+        <thead>
+        <tr>
+          <th>title</th>
+          <th>e-mails</th>
+          
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="ml in mlists">
+          <td>{{ml.title | limitTo:30}}</td>
+          <td>{{ml.mails | limitTo:60}}
+          <td>
+          <button ng-click="openEdit(ml,$index)">edit</button>
+          </td>
+          <td>
           <button ng-click="deleteML(ml.id,$index);">remove</button>
-    
-          <span style="font-size:20px; margin-left:10px;">
-            {{ml.title}} - mails: {{ml.mails}}
-          </span>
-        </div>
+          </td>
+        </button>
+        </tr>
+        </tbody>
+      </table>
       
-      
-      <div class="row">
+      <div class="row" ng-show="create_bool">
       <div class="col-md-2"></div>
       <div class="col-md-8">
       <form ng-submit="addML()"
@@ -36,5 +49,28 @@
         </div>
         <button type="submit" class="btn btn-primary">Create</button>
       </form>
+      </div>
+      </div>
+
+      <div class="row" ng-show="update_bool">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+      <form ng-submit="editML()"
+        style="margin-top:30px;">
+        <h3>Edit mailing list</h3>
+
+        <div class="form-group">
+          <input type="text"
+            class="form-control"
+            placeholder="Title"
+            ng-model="selected_mlist.title"></input>
+        </div>
+        <div class="form-group">
+          <textarea type="text" class="form-control" rows="3" placeholder="List of e-mails (comma separated)"
+          ng-model="selected_mlist.mails"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+      </form>
+      </div>
       </div>
     

@@ -29,10 +29,10 @@ Body:<br/>
     <h3>Mailing options:</h3>
     <div class="form-group">
       <label>Mailing list:
-      <select class="form-control" ng-model="mpreview" ng-options="mlist.title for mlist in mlists"></select>
+      <select class="form-control" ng-model="mpreview" ng-options="mlist.title for mlist in mlists" required></select>
       </label><br/>      
       <label> Mail template:
-      <select class="form-control" ng-model="tpreview" ng-options="template.title for template in templates"></select>
+      <select class="form-control" ng-model="tpreview" ng-options="template.title for template in templates" required></select>
       </label><br/>
     </div>
     <button type="submit" class="btn btn-primary">Send</button>
