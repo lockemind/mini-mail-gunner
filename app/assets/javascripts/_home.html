@@ -3,28 +3,38 @@
   <p>your simple mailing list application</p>
 </div>
 
-<button class="btn btn-default" ng-click="open()">Open me!</button>
-<button class="btn btn-default" ng-click="open('lg')">Large modal</button>
-<button class="btn btn-default" ng-click="open('sm')">Small modal</button>
-<button class="btn btn-default" ng-click="toggleAnimation()">Toggle Animation ({{ animationsEnabled }})</button>
-<div ng-show="selected">Selection from a modal: {{ selected }}</div>
+  
+<!-- 
+  <label>ML:
+  <select class="form-control" ng-model="mpreview" ng-options="mlist.title for mlist in mlists"></select>
+  </label><br/>
 
+  <label>TEMPLATE:
+  <select class="form-control" ng-model="tpreview" ng-options="template.title for template in templates"></select>
+  </label><br/>
 
+ -->
+To be sent to:<br/>
+{{mpreview.mails}} 
+<br/>
+Subject:<br/>
+ {{tpreview.title}} <br/>
+Body:<br/>
+{{tpreview.content}}<br/>
+
+<hr/>
 <div class="row">
   <form ng-submit="sendMails()"
     style="margin-top:30px;">
     <h3>Mailing options:</h3>
     <div class="form-group">
-      Mailing list:
-      <select class="form-control" ng-model="mails">
-        <option ng-repeat="mlist in mlists" value="{{mlist.mails}}" >{{mlist.title}}</option>
-      </select>
-      Mail template:
-      <select class="form-control" ng-model="content">
-        <option ng-repeat="template in templates" value="{{template.content}}">{{template.title}}</option>
-      </select>
+      <label>Mailing list:
+      <select class="form-control" ng-model="mpreview" ng-options="mlist.title for mlist in mlists"></select>
+      </label><br/>      
+      <label> Mail template:
+      <select class="form-control" ng-model="tpreview" ng-options="template.title for template in templates"></select>
+      </label><br/>
     </div>
     <button type="submit" class="btn btn-primary">Send</button>
   </form>
-
 </div>
