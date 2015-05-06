@@ -3,7 +3,8 @@ angular.module('miniMailGunner')
 '$scope',
 'mlists',
 'templates',
-function($scope, mlists, templates){
+'$http',
+function($scope, mlists, templates, $http){
   
   $scope.mlists = mlists.mlists;
   $scope.templates = templates.templates;
@@ -12,26 +13,19 @@ function($scope, mlists, templates){
     
     console.log("$scope.mails   " + $scope.mails);
     console.log("$scope.content   " + $scope.content);
-      
+
+    sendM({
+        content: $scope.content,
+        mails: $scope.mails,
+    });
   }
 
-  $scope.items = [
-      'The first choice!',
-      'And another choice for you.',
-      'but wait! A third!'
-    ];
+  sendM = function(data) {
+    console.log("sending to /msender/send.json: ", data )
+    return $http.post('/msender/send.json', data).success(function(resp_data){
+      // o.feedback.push(resp_data);
+      console.log("temos resposta!")
+    });
+  };
 
-    $scope.status = {
-      isopen: false
-    };
-
-    $scope.toggled = function(open) {
-      $log.log('Dropdown is now: ', open);
-    };
-
-    $scope.toggleDropdown = function($event) {
-      $event.preventDefault();
-      $event.stopPropagation();
-      $scope.status.isopen = !$scope.status.isopen;
-    };
 }]);

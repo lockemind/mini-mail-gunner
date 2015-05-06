@@ -43,4 +43,10 @@ Rails.application.configure do
   # is an example of default_url_options appropriate for a development environment
   # in config/environments/development.rb
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  # config.action_mailer.delivery_method = :mailgun
+  # config.action_mailer.mailgun_settings = {
+  #         api_key: '141b646a02b5ed3298026638d40dbea8',
+  #         domain: 'dry-everglades-3789.herokuapp.com'
+  # }
 end

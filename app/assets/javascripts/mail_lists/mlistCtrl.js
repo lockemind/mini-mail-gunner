@@ -17,4 +17,5 @@ function($scope, mlists){
       $scope.title = '';
       $scope.mails = '';
   }
+
 }]);
