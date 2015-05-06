@@ -1,6 +1,6 @@
 class MlistsController < ApplicationController
 
-	before_filter :authenticate_user!, only: [:create]
+	before_filter :authenticate_user!, only: [:create,:destroy]
 
 	def index
 		puts 'MlistsController.index'
@@ -17,6 +17,10 @@ class MlistsController < ApplicationController
 	def show
 		puts 'MlistsController.show'
 	  respond_with Mlist.find(params[:id])
+	end
+
+	def destroy
+	  respond_with Mlist.destroy(params[:id])
 	end
 
 	def mlist_params

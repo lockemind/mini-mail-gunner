@@ -19,5 +19,13 @@ angular.module('miniMailGunner')
     });
   };
 
+  o.destroy = function(id, index) {
+    console.log( "calling delete with " + id )
+    return $http.delete('/mlists/'+id+'.json').success(function(data){
+      console.log("deleted");
+      o.mlists.splice(index, 1);
+    });
+  };
+
   return o;
 }]);

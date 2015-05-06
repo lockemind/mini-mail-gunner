@@ -63,23 +63,7 @@ function($stateProvider, $urlRouterProvider) {
         }, function (){ $state.go('login');
         } )
       }]
-    })
-    // .state('template', {
-    //   url: '/template',
-    //   templateUrl: '/template/_template.html',
-    //   controller: 'TemplateCtrl',
-    //   resolve: {
-    //     postPromise: ['template', function(template){
-    //       return templates.getAll();
-    //     }]
-    //   },
-    //   onEnter: ['$state', 'Auth', function($state, Auth) {
-    //     Auth.currentUser().then(function (){
-    //     }, function (){ $state.go('login');
-    //     } )
-    //   }]
-    // })
-    ;
+    });
 
   $urlRouterProvider.otherwise('home');
 }]);

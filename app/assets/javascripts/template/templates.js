@@ -20,5 +20,12 @@ angular.module('miniMailGunner')
     });
   };
 
+  o.destroy = function(id, index) {
+    return $http.delete('/templates/'+id+'.json').success(function(data){
+      console.log("deleted");
+      o.templates.splice(index, 1);
+    });
+  };
+
   return o;
 }]);

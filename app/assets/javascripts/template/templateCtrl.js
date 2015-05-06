@@ -2,7 +2,8 @@ angular.module('miniMailGunner')
 .controller('TemplateCtrl', [
 '$scope',
 'templates',
-function($scope, templates){
+'$window',
+function($scope, templates, $window){
   
   $scope.templates = templates.templates;
   $scope.addTemplate = function(){
@@ -16,5 +17,12 @@ function($scope, templates){
 
       $scope.title = '';
       $scope.content = '';
-  }
+  };
+
+  $scope.deleteTemplate = function(id, index){
+    
+    if ($window.confirm("Are u sure you want do delete this mailing list?") == true) {
+        templates.destroy(id, index);
+    } 
+  };
 }]);

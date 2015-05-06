@@ -6,10 +6,11 @@
       <div class="row">
       
         <div ng-repeat="template in templates">
-          <span class="glyphicon glyphicon glyphicon-edit"
+          <!-- <span class="glyphicon glyphicon glyphicon-edit"
               ng-click="deleteML(mlist)"></span>
           <span class="glyphicon glyphicon glyphicon-remove"
-              ng-click="deleteML(mlist)"></span>
+              ng-click="deleteML(mlist)"></span> -->
+          <button ng-click="deleteTemplate(template.id,$index);">remove</button>
           <span style="font-size:20px; margin-left:10px;">
             {{template.title}}
           </span>

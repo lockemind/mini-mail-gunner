@@ -5,13 +5,14 @@
       </div>
       <div class="row">
       
-        <div ng-repeat="mlist in mlists">
-          <span class="glyphicon glyphicon glyphicon-edit"
-              ng-click="deleteML(mlist)"></span>
-          <span class="glyphicon glyphicon glyphicon-remove"
-              ng-click="deleteML(mlist)"></span>
+        <div ng-repeat="ml in mlists">
+          <!-- <span class="glyphicon glyphicon glyphicon-edit" ng-click="editML(ml.id)"></span>
+          <span class="glyphicon glyphicon glyphicon-remove" ng-click="deleteML(ml.id)"></span>
+ -->
+          <button ng-click="deleteML(ml.id,$index);">remove</button>
+    
           <span style="font-size:20px; margin-left:10px;">
-            {{mlist.title}} - mails: {{mlist.mails}}
+            {{ml.title}} - mails: {{ml.mails}}
           </span>
         </div>
       

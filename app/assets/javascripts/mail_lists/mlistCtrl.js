@@ -2,7 +2,8 @@ angular.module('miniMailGunner')
 .controller('MlistCtrl', [
 '$scope',
 'mlists',
-function($scope, mlists){
+'$window',
+function($scope, mlists, $window){
   
   $scope.mlists = mlists.mlists;
   $scope.addML = function(){
@@ -17,5 +18,12 @@ function($scope, mlists){
       $scope.title = '';
       $scope.mails = '';
   }
+
+  $scope.deleteML = function(id, index){
+    
+    if ($window.confirm("Are u sure you want do delete this mailing list?") == true) {
+        mlists.destroy(id, index);
+    } 
+  };
 
 }]);
