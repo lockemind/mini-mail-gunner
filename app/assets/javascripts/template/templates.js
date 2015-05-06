@@ -20,6 +20,12 @@ angular.module('miniMailGunner')
     });
   };
 
+  o.update = function(templates) {
+    return $http.patch('/templates/'+templates.id+'.json', templates).success(function(data){
+      
+    });
+  };
+
   o.destroy = function(id, index) {
     return $http.delete('/templates/'+id+'.json').success(function(data){
       console.log("deleted");

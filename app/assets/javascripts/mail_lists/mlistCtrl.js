@@ -29,27 +29,20 @@ function($scope, mlists, $window){
     } 
   };
 
-$scope.toggleCreate = function(id, index){
+  $scope.toggleCreate = function(id, index){
     
     $scope.update_bool = false;
     $scope.create_bool = true;
   };
 
-$scope.toggleUpdate = function(id, index){
-    
-    $scope.update_bool = true;
-    $scope.create_bool = false;
-  };
-$scope.openEdit = function(mlist, index){
-    console.log("openEdit " , mlist);
-    $scope.update_bool = true;
-    $scope.create_bool = false;
-    $scope.selected_mlist = mlist;
 
-    // if ($window.confirm("Are u sure you want do delete this mailing list?") == true) {
-    //     mlists.destroy(id, index);
-    // } 
+  $scope.openEdit = function(mlist, index){
+      console.log("openEdit " , mlist);
+      $scope.update_bool = true;
+      $scope.create_bool = false;
+      $scope.selected_mlist = mlist;
   };
+
 
   $scope.editML = function(){
     console.log("editML ");

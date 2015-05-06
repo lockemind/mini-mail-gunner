@@ -1,6 +1,6 @@
 class TemplatesController < ApplicationController
 
-	before_filter :authenticate_user!, only: [:create,:destroy]
+	before_filter :authenticate_user!, only: [:create, :destroy, :update]
 
 	def index
 	  respond_with Template.where("user_id = #{current_user.id}")
@@ -12,6 +12,11 @@ class TemplatesController < ApplicationController
 
 	def show
 	  respond_with Template.find(params[:id])
+	end
+
+	def update
+	  @template = Template.find(params[:id])
+	  respond_with @template.update(template_params)
 	end
 
 	def destroy

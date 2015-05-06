@@ -3,17 +3,6 @@
   <p>your simple mailing list application</p>
 </div>
 
-  
-<!-- 
-  <label>ML:
-  <select class="form-control" ng-model="mpreview" ng-options="mlist.title for mlist in mlists"></select>
-  </label><br/>
-
-  <label>TEMPLATE:
-  <select class="form-control" ng-model="tpreview" ng-options="template.title for template in templates"></select>
-  </label><br/>
-
- -->
 To be sent to:<br/>
 {{mpreview.mails}} 
 <br/>
@@ -23,6 +12,7 @@ Body:<br/>
 {{tpreview.content}}<br/>
 
 <hr/>
+<div class="alert alert-success" role="alert" ng-show="message_sent">{{message_sent}}</div>
 <div class="row">
   <form ng-submit="sendMails()"
     style="margin-top:30px;">

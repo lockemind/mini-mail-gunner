@@ -5,24 +5,37 @@
       </div>
       <div class="row">
       
-        <div ng-repeat="template in templates">
-          <!-- <span class="glyphicon glyphicon glyphicon-edit"
-              ng-click="deleteML(mlist)"></span>
-          <span class="glyphicon glyphicon glyphicon-remove"
-              ng-click="deleteML(mlist)"></span> -->
-          <button ng-click="deleteTemplate(template.id,$index);">remove</button>
-          <span style="font-size:20px; margin-left:10px;">
-            {{template.title}}
-          </span>
-        </div>
+      <button ng-click="toggleCreate()">Create Mail Template</button>
       
+      <table st-table="rowCollection" class="table table-striped" >
+        <thead>
+        <tr>
+          <th>Title/Subject</th>
+          <th>Content</th>
+          
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="tmp in templates">
+          <td>{{tmp.title | limitTo:30}}</td>
+          <td>{{tmp.content | limitTo:60}}
+          <td>
+          <button ng-click="openEdit(tmp,$index)">edit</button>
+          </td>
+          <td>
+          <button ng-click="deleteTemplate(tmp.id,$index);">remove</button>
+          </td>
+        </button>
+        </tr>
+        </tbody>
+      </table>
       
-      <div class="row">
+      <div class="row" ng-show="create_bool">
       <div class="col-md-2"></div>
       <div class="col-md-8">
       <form ng-submit="addTemplate()"
         style="margin-top:30px;">
-        <h3>Create a mail template</h3>
+        <h3>Create a new mail template</h3>
 
         <div class="form-group">
           <input type="text"
@@ -31,11 +44,32 @@
             ng-model="title"></input>
         </div>
         <div class="form-group">
-          <textarea type="text" class="form-control" rows="6" placeholder="Template"
+          <textarea type="text" class="form-control" rows="10" placeholder="Template"
           ng-model="content"></textarea>
-
         </div>
         <button type="submit" class="btn btn-primary">Create</button>
       </form>
       </div>
-    
+      </div>
+
+      <div class="row" ng-show="update_bool">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+      <form ng-submit="editTemplate()"
+        style="margin-top:30px;">
+        <h3>Edit mail template</h3>
+
+        <div class="form-group">
+          <input type="text"
+            class="form-control"
+            placeholder="Title"
+            ng-model="selected_template.title"></input>
+        </div>
+        <div class="form-group">
+          <textarea type="text" class="form-control" rows="10" placeholder="Template"
+          ng-model="selected_template.content"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+      </form>
+      </div>
+      </div>
